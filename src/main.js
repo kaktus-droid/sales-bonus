@@ -178,15 +178,15 @@ sellerStats.forEach((seller, index) => { // Вызовем функцию рас
   }));
 }
 
-const options = {
+//const options = {
   // Функция расчёта выручки (используем calculateSimpleRevenue)
-  calculateRevenue: calculateSimpleRevenue,
+  //calculateRevenue: calculateSimpleRevenue,
 
   // Функция расчёта бонуса (используем calculateBonusByProfit)
-  calculateBonus: calculateBonusByProfit,
-};
+  //calculateBonus: calculateBonusByProfit,
+//};
 
-const mainReport = analyzeSalesData(data, options);
+//const mainReport = analyzeSalesData(data, options);
 
 
 
